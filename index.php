@@ -1,3 +1,6 @@
+<?php
+$url_base = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+?>
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -12,30 +15,40 @@
 
         <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
         <title>Rogelio Vargas Marquez | Shimonure</title>
+        
+        <link rel="shortcut icon" type="image/png" href="favicon.png" />
     </head>
-    <?php include_once 'pages/demo.php'; ?>
-    
+    <?php //include_once 'pages/demo.php'; ?>
+
+
+    <body>
+
+        <?php include_once 'header.php' ?>
+        
+        <?php include_once 'pages/home/about_me.php'?>
+
+        <div style="height: 1000px">asda</div>
+
+    </body>
+
+
     <!-- jQuery Core JavaScript -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    
+    <!-- Animación Extra JavaScript -->
+    <script src="js/scroll_extra.js"></script>
+    
+    
     <script>
         $(document).ready(function () {
             $('[data-toggle="popover"]').popover();
             $('[data-toggle="tooltip"]').tooltip();
-
         });
-        /*
-         $(document).scroll(function (e) {
-         var scrollTop = $(document).scrollTop();
-         if (scrollTop > 50) {
-         console.log(scrollTop);
-         $('.navbar').removeClass('navbar-static-top').addClass('navbar-fixed-top');
-         } else {
-         $('.navbar').removeClass('navbar-fixed-top').addClass('navbar-static-top');
-         }
-         });
-         */
     </script>
 </html>
