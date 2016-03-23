@@ -13,24 +13,57 @@ html{
     width: 100%;
 }
 
+h1{
+    font-weight: 700;    
+}
+
 
 /*Banner del Home*/
 .intro{
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
-    background: url('../img/banner.png');
+    padding-bottom: 50px;
+    background: url('../img/banner.png') no-repeat center center fixed;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/banner.png');
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/banner.png');
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/banner.png');
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/banner.png');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../img/banner.png');
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/banner.png');
+
 }
+
+.banner-info{
+    padding-top: 80px; 
+    color: #FFF; 
+    text-align: center
+}
+
+.banner-info p{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
 
 @media(min-width:768px) {
     .intro {
         height: 100%;
         padding: 0;
+    }
+    .banner-info{
+        padding-top: 120px; 
+    }
+    .banner-info p{
+        padding-top: 50px;
     }
 }
 
@@ -41,24 +74,28 @@ html{
 }
 
 
+
+
 /*NAV BAR*/
+.navbar-default {
+    font-weight: 700;
+}
 
 @media(min-width:768px) {
     .navbar-default {
         padding: 20px 0;
         border-bottom: 0;
         background: 0 0;
-        font-weight: 600;
         letter-spacing: 2px;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
-    
-    
+
+
 
     .navbar-default.top-nav-collapse {
-        
+
         padding: 0;
         /*border-bottom: 1px solid rgba(255,255,255,.3);*/
         background-color: #022640;
@@ -66,3 +103,44 @@ html{
     }
 }
 
+/*Divisiones*/
+.division-codigo{
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_4.jpg');
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_4.jpg');
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_4.jpg');
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_4.jpg');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../img/divisiones/codigo_4.jpg');
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_4.jpg');
+}
+
+
+/*Espacios extras para acomodo*/
+.padding-bottom-15{
+    padding-bottom: 15px;
+}
+
+.padding-bottom-20{
+    padding-bottom: 20px;
+}
+
+.padding-bottomtop-40{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+
+/*Footer*/
+.footer{
+    background-color: #022640;
+    color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
