@@ -17,6 +17,9 @@ h1{
     font-weight: 700;    
 }
 
+.fs-18{
+    font-size: 18px;
+}
 
 /*Banner del Home*/
 .intro{
@@ -134,6 +137,10 @@ h1{
 .padding-bottomtop-40{
     padding-bottom: 40px;
     padding-top: 40px;
+}
+
+.margin-top-20{
+    padding-top: 20px;
 }
 
 
