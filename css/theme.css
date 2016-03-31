@@ -3113,7 +3113,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
   color: #ffffff;
   background-color: #03355a;
-  border-color: #022641;
+  /*border-color: #022641;*/
 }
 .btn-primary:focus,
 .btn-primary.focus {

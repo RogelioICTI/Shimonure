@@ -17,11 +17,25 @@ h1{
     font-weight: 700;    
 }
 
+.btn-default,.btn-primary,.btn-success,.btn-info,.btn-warning,.btn-danger {
+    -webkit-box-shadow: 3px 3px 2px #888888;
+    -moz-box-shadow:    3px 3px 2px #888888;
+    box-shadow: 3px 3px 2px #888888;
+}
+.btn-default:active,.btn-primary:active,.btn-success:active,.btn-info:active,.btn-warning:active,.btn-danger:active {
+    margin-top: 3px;
+    margin-bottom: -3px;
+}
+
+.btn{
+    transition: all 0.3s ease 0s;
+}
+
 .fs-18{
     font-size: 18px;
 }
 
-/*Banner del Home*/
+/*Home*/
 .intro{
     display: table;
     width: 100%;
@@ -56,6 +70,55 @@ h1{
     font-size: 20px;
 }
 
+.trabajo-item-home{
+    border-radius: 10px;
+    border: 2px solid #B1B19C;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    background-color: #F1F1D4;
+    background-image: url('../img_pruebas/bg-square.png');
+
+    box-shadow: inset 0px 0px 50px 0px #C1C1C1;
+    -webkit-box-shadow: inset 0px 0px 50px 0px #C1C1C1;
+    -moz-box-shadow: inset 0px 0px 50px 0px #C1C1C1;
+    -o-box-shadow: inset 0px 0px 50px 0px #C1C1C1;
+    transition:all 0.5s ease 0s; 
+}
+.trabajo-item-home:hover{
+    border: 2px solid #A6A60E;
+    box-shadow: inset 0 0 0 25px #53a7ea;
+    background-color: #FFFFEA;
+    box-shadow: inset 0px 0px 50px -20px #C1C1C1;
+    -webkit-box-shadow: inset 0px 0px 50px -20px #C1C1C1;
+    -moz-box-shadow: inset 0px 0px 50px -20px #C1C1C1;
+    -o-box-shadow: inset 0px 0px 50px -20px #C1C1C1;
+}
+
+.servicio-item-home{
+    border-radius: 10px;
+    border: 2px solid #B1B19C;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    background-color: #F1F1D4;
+    background-image: url('../img_pruebas/bg-square.png');
+
+    box-shadow: inset 0px 0px 50px 0px #C1C1C1;
+    -webkit-box-shadow: inset 0px 0px 50px 0px #C1C1C1;
+    -moz-box-shadow: inset 0px 0px 50px 0px #C1C1C1;
+    -o-box-shadow: inset 0px 0px 50px 0px #C1C1C1;
+    transition:all 0.5s ease 0s;
+}
+
+.servicio-item-home:hover{
+    border: 2px solid #F01420;
+    box-shadow: inset 0 0 0 25px #53a7ea;
+    background-color: #FFFFEA;
+    box-shadow: inset 0px 0px 50px -20px #C1C1C1;
+    -webkit-box-shadow: inset 0px 0px 50px -20px #C1C1C1;
+    -moz-box-shadow: inset 0px 0px 50px -20px #C1C1C1;
+    -o-box-shadow: inset 0px 0px 50px -20px #C1C1C1;
+}
+
 
 @media(min-width:768px) {
     .intro {
@@ -73,8 +136,20 @@ h1{
 
 /*Colores de las secciones*/
 .white-section{
-    box-shadow: inset 0 0 35px #C1C1C1;
+
+    box-shadow: inset 0px 0px 19px 1px #ABABAB;
+    -webkit-box-shadow: inset 0px 0px 19px 1px #ABABAB;
+    -moz-box-shadow: inset 0px 0px 19px 1px #ABABAB;
+    -o-box-shadow: inset 0px 0px 19px 1px #ABABAB;
+
+    /*
+    box-shadow: -2px 9px 55px 20px #000;
+    -webkit-box-shadow: -2px 9px 55px 20px #000;
+    -moz-box-shadow: -2px 9px 55px 20px #000;
+    -o-box-shadow: -2px 9px 55px 20px #000;
+    */
 }
+
 
 
 
@@ -108,7 +183,7 @@ h1{
 
 /*Divisiones*/
 .division-codigo{
-    height: 200px;
+    height: 300px;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -116,12 +191,34 @@ h1{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.codigo-4{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_4.jpg');
     background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_4.jpg');
     background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_4.jpg');
     background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_4.jpg');
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../img/divisiones/codigo_4.jpg');
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_4.jpg');
+}
+
+.codigo-2{
+
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_6.jpg');
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_6.jpg');
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_6.jpg');
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_6.jpg');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../img/divisiones/codigo_6.jpg');
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_6.jpg');
+}
+
+.codigo-1{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo.jpg');
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo.jpg');
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo.jpg');
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo.jpg');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../img/divisiones/codigo.jpg');
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo.jpg');
 }
 
 
@@ -134,6 +231,16 @@ h1{
     padding-bottom: 20px;
 }
 
+.padding-bottomtop-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padding-leftright-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .padding-bottomtop-40{
     padding-bottom: 40px;
     padding-top: 40px;
@@ -141,6 +248,9 @@ h1{
 
 .margin-top-20{
     padding-top: 20px;
+}
+.margin-top-10{
+    padding-top: 10px;
 }
 
 
@@ -150,4 +260,5 @@ h1{
     color: #f2f2f2;
     padding-top: 20px;
     padding-bottom: 30px;
+    margin-top: 30px;
 }
