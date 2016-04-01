@@ -70,6 +70,44 @@ h1{
     font-size: 20px;
 }
 
+.datos-contacto{
+    list-style-type: none;
+    font-size:20px;
+    padding-left: 0;
+    /*font-weight: 700;*/
+}
+
+.datos-contacto li{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.datos-contacto i{
+    margin-right: 5px;
+    width: 22px;
+}
+.datos-contacto a:hover{
+    text-decoration: none;
+    color: #BA283B;
+}
+
+
+.padding-ayuda{
+    padding-left: 0px;
+}
+.contacto-item-home{
+    border-radius: 10px;
+    border: 2px solid #4A84A5;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    box-shadow: inset 0 0 0 25px #53a7ea;
+    background-color: #FFFFEA;
+        background-image: url('../img_pruebas/bg-square.png');
+    box-shadow: inset 0px 0px 50px -20px #C1C1C1;
+    -webkit-box-shadow: inset 0px 0px 50px -20px #C1C1C1;
+    -moz-box-shadow: inset 0px 0px 50px -20px #C1C1C1;
+    -o-box-shadow: inset 0px 0px 50px -20px #C1C1C1;
+}
+
 .trabajo-item-home{
     border-radius: 10px;
     border: 2px solid #B1B19C;
@@ -131,6 +169,10 @@ h1{
     .banner-info p{
         padding-top: 50px;
     }
+    
+    .padding-ayuda{
+        padding-left: 50px !important;
+    }
 }
 
 
@@ -157,6 +199,7 @@ h1{
 /*NAV BAR*/
 .navbar-default {
     font-weight: 700;
+    font-size: 18px;
 }
 
 @media(min-width:768px) {
@@ -249,6 +292,11 @@ h1{
 .margin-top-20{
     padding-top: 20px;
 }
+
+.margin-top-15{
+    margin-top: 15px;
+}
+
 .margin-top-10{
     padding-top: 10px;
 }
@@ -261,4 +309,5 @@ h1{
     padding-top: 20px;
     padding-bottom: 30px;
     margin-top: 30px;
+
 }

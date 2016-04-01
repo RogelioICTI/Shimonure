@@ -23,7 +23,14 @@
 <script src="js/jquery.easing.min.js"></script>
 
 <!-- Animación Extra JavaScript -->
+<?php if($GLOBALS['narbar_bandera'] == 'index.php'): echo $GLOBALS['url_base'];?>
 <script src="js/scroll_extra.js"></script>
+
+
+
+<?php endif;?>
+
+
 
 
 <script>
@@ -33,3 +40,6 @@
     });
 </script>
 </html>
+    
+
+
