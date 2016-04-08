@@ -7,15 +7,32 @@
         </div>
         <div class="col-md-4 col-sm-6 text-center padding-bottomtop-10">
             <div class="servicio-item-home effect-8">
-                <span class="fa fa-globe fa-4x"></span>
-                <h2>Servicio 1</h2>
+                <!--<span class="fa fa-globe fa-4x"></span>-->
+                <img class="icono-servicio" src="img/home/laptop.png" alt="">
+                <h2>Software a la Medida</h2>
                 <p>Descripción corta del servicio</p>
             </div>
         </div>
 
         <div class="col-md-4 col-sm-6 text-center padding-bottomtop-10">
             <div class="servicio-item-home">
-                <span class="fa fa-globe fa-4x"></span>
+                <img class="icono-servicio" src="img/home/laptop.png" alt="">
+                <h2>Desarrollo Web</h2>
+                <p>Descripción corta del servicio</p>
+            </div>
+        </div>
+        
+        <div class="col-md-4 col-sm-6 text-center padding-bottomtop-10">
+            <div class="servicio-item-home">
+                <img class="icono-servicio" src="img/home/laptop.png" alt="">
+                <h2>Consultoría</h2>
+                <p>Descripción corta del servicio</p>
+            </div>
+        </div>
+        
+        <div class="col-md-4 col-sm-6 text-center padding-bottomtop-10">
+            <div class="servicio-item-home">
+                <img class="icono-servicio" src="img/home/laptop.png" alt="">
                 <h2>Servicio 1</h2>
                 <p>Descripción corta del servicio</p>
             </div>
@@ -23,31 +40,15 @@
         
         <div class="col-md-4 col-sm-6 text-center padding-bottomtop-10">
             <div class="servicio-item-home">
-                <span class="fa fa-globe fa-4x"></span>
-                <h2>Servicio 1</h2>
+                <img class="icono-servicio" src="img/home/laptop.png" alt="">
+                <h2>Capacitación</h2>
                 <p>Descripción corta del servicio</p>
             </div>
         </div>
         
         <div class="col-md-4 col-sm-6 text-center padding-bottomtop-10">
             <div class="servicio-item-home">
-                <span class="fa fa-globe fa-4x"></span>
-                <h2>Servicio 1</h2>
-                <p>Descripción corta del servicio</p>
-            </div>
-        </div>
-        
-        <div class="col-md-4 col-sm-6 text-center padding-bottomtop-10">
-            <div class="servicio-item-home">
-                <span class="fa fa-globe fa-4x"></span>
-                <h2>Servicio 1</h2>
-                <p>Descripción corta del servicio</p>
-            </div>
-        </div>
-        
-        <div class="col-md-4 col-sm-6 text-center padding-bottomtop-10">
-            <div class="servicio-item-home">
-                <span class="fa fa-globe fa-4x"></span>
+                <img class="icono-servicio" src="img/home/laptop.png" alt="">
                 <h2>Servicio 1</h2>
                 <p>Descripción corta del servicio</p>
             </div>

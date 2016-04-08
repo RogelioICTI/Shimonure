@@ -32,7 +32,7 @@
 
         <div class="col-xs-12">
             <div class="margin-top-10">
-                <a class="btn btn-primary fs-18 btn-arrow" href="page-servicios.php">Ir a mi Portafolio &nbsp; <i class="fa fa-angle-double-right"></i></a>
+                <a class="btn btn-primary fs-18 btn-arrow" href="page-portafolio.php">Ir a mi Portafolio &nbsp; <i class="fa fa-angle-double-right"></i></a>
             </div>
         </div>
 

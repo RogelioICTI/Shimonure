@@ -9,5 +9,3 @@
      <a class="btn btn-primary fs-18 btn-arrow" href="index.php"><i class="fa fa-home"></i> Inicio</a>
 </div>
 <?php include_once 'footer.php' ?>
-
-

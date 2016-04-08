@@ -32,12 +32,16 @@
                         </a>
                     </li>
                     
-
-
+                    <!--Linkedin-->
+                    <li>
+                        <a href="https://www.linkedin.com/in/rogelio-vargas-2657478b?trk=hp-identity-name">
+                            <i style="font-size: 22px;" class="fa fa-linkedin-square"></i>linkedin
+                        </a>
+                    </li>                    
                 </ul>
             </div>
             <div class="margin-top-15">
-                    <a class="btn btn-primary fs-18 btn-arrow" href="page-servicios.php">Ir a la sección de contacto &nbsp; <i class="fa fa-angle-double-right"></i></a>
+                    <a class="btn btn-primary fs-18 btn-arrow" href="page-contacto.php">Ir a la sección de contacto &nbsp; <i class="fa fa-angle-double-right"></i></a>
                 </div>
         </div>
 

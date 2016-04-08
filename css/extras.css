@@ -3,6 +3,8 @@
     Author     : Rogelio Vargas <rogelio@dsindigo.mx>
 */
 
+
+
 body{
     height: 100%;
     width: 100%;
@@ -34,6 +36,16 @@ h1{
 .fs-18{
     font-size: 18px;
 }
+
+/*Construcción*/
+.construccion { height:100%; width:100%; text-align:center; top: 80px; position: relative; } 
+
+@media (max-width: 720px) {
+    .construccion {
+        top: 5%;
+    }
+}
+
 
 /*Home*/
 .intro{
@@ -101,7 +113,7 @@ h1{
     padding-bottom: 10px;
     box-shadow: inset 0 0 0 25px #53a7ea;
     background-color: #FFFFEA;
-        background-image: url('../img_pruebas/bg-square.png');
+    background-image: url('../img_pruebas/bg-square.png');
     box-shadow: inset 0px 0px 50px -20px #C1C1C1;
     -webkit-box-shadow: inset 0px 0px 50px -20px #C1C1C1;
     -moz-box-shadow: inset 0px 0px 50px -20px #C1C1C1;
@@ -169,7 +181,7 @@ h1{
     .banner-info p{
         padding-top: 50px;
     }
-    
+
     .padding-ayuda{
         padding-left: 50px !important;
     }
@@ -193,7 +205,9 @@ h1{
 }
 
 
-
+.icono-servicio{
+    max-height: 65px;
+}
 
 
 /*NAV BAR*/

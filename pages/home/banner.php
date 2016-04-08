@@ -1,7 +1,9 @@
 <header class="intro">
     <div class="container">
         <div class="banner-info">
-        <h1>Full Stack Developer</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id malesuada dui, vel rhoncus diam. Nunc a justo lectus. Etiam vulputate metus non sodales venenatis. Donec placerat lacinia erat sit amet laoreet. Morbi id erat libero. Fusce nec mauris nec justo finibus vehicula. Maecenas eget odio euismod, feugiat elit id, gravida leo. Nam vitae nunc ut eros pretium tincidunt volutpat at lacus. Morbi et turpis nulla. Nunc tincidunt dapibus dui.</p>
+        <h1>Rogelio Vargas Marquez</h1>
+        <p>
+            Bienvenido, me dedico a eso de la programación y las tecnologías de la información. Me considero como un Programador Full Stack y me encantaría poder colaborar contigo para mejorar tu empresa o negocio.           
+        </p>
     </div>
 </header>
