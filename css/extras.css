@@ -37,6 +37,10 @@ h1{
     font-size: 18px;
 }
 
+.no-underline:hover{
+    text-decoration:none;  
+}
+
 /*Construcción*/
 .construccion { height:100%; width:100%; text-align:center; top: 80px; position: relative; } 
 
@@ -79,7 +83,7 @@ h1{
     padding-top: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .datos-contacto{
@@ -113,7 +117,7 @@ h1{
     padding-bottom: 10px;
     box-shadow: inset 0 0 0 25px #53a7ea;
     background-color: #FFFFEA;
-    background-image: url('../img_pruebas/bg-square.png');
+    background-image: url('../img/bg-square.png');
     box-shadow: inset 0px 0px 50px -20px #C1C1C1;
     -webkit-box-shadow: inset 0px 0px 50px -20px #C1C1C1;
     -moz-box-shadow: inset 0px 0px 50px -20px #C1C1C1;
@@ -121,13 +125,15 @@ h1{
 }
 
 .trabajo-item-home{
+    position: relative;
     border-radius: 10px;
     border: 2px solid #B1B19C;
     padding-top: 10px; 
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     background-color: #F1F1D4;
-    background-image: url('../img_pruebas/bg-square.png');
-
+    background-image: url('../img/bg-square.png');
+    min-height: 450px;
+    
     box-shadow: inset 0px 0px 50px 0px #C1C1C1;
     -webkit-box-shadow: inset 0px 0px 50px 0px #C1C1C1;
     -moz-box-shadow: inset 0px 0px 50px 0px #C1C1C1;
@@ -144,14 +150,27 @@ h1{
     -o-box-shadow: inset 0px 0px 50px -20px #C1C1C1;
 }
 
+.minibarra-lenguajes{
+    width: 100%;
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+.item-minibarra{
+    max-height: 40px;
+}
+
 .servicio-item-home{
     border-radius: 10px;
     border: 2px solid #B1B19C;
     padding-top: 10px; 
     padding-bottom: 10px;
     background-color: #F1F1D4;
-    background-image: url('../img_pruebas/bg-square.png');
-
+    background-image: url('../img/bg-square.png');
+    min-height: 210px;
     box-shadow: inset 0px 0px 50px 0px #C1C1C1;
     -webkit-box-shadow: inset 0px 0px 50px 0px #C1C1C1;
     -moz-box-shadow: inset 0px 0px 50px 0px #C1C1C1;
@@ -170,6 +189,15 @@ h1{
 }
 
 
+
+.servicio-item-home p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+
 @media(min-width:768px) {
     .intro {
         height: 100%;
@@ -186,6 +214,16 @@ h1{
         padding-left: 50px !important;
     }
 }
+@media(max-width:768px) {
+    .banner-info p{
+        font-size: 20px;
+    }
+    .trabajo-item-home{
+        
+        min-height: auto;
+    }
+}
+
 
 
 /*Colores de las secciones*/
@@ -208,6 +246,8 @@ h1{
 .icono-servicio{
     max-height: 65px;
 }
+
+
 
 
 /*NAV BAR*/
@@ -280,6 +320,21 @@ h1{
 
 
 /*Espacios extras para acomodo*/
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media(max-width:768px) {
+    /*
+    .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    */
+}
+
 .padding-bottom-15{
     padding-bottom: 15px;
 }
@@ -323,5 +378,44 @@ h1{
     padding-top: 20px;
     padding-bottom: 30px;
     margin-top: 30px;
+}
+.lista-footer {
+    text-align: left;
+    padding-left: 0px;
+    list-style-type:none;  
+}
 
+.lista-footer-2{
+    text-align: right;
+    padding-left: 0px;
+    list-style-type:none;  
+}
+
+.lista-footer-2 a{
+    color: #FFFFFF;
+}
+
+.lista-footer a{
+    color: #FFFFFF;
+}
+
+@media (max-width:780px){
+    .lista-footer li{
+        display: inline-block;
+        padding-left: 10px;
+    }
+    
+    .lista-footer-2 li{
+        margin-top: 10px;
+        display: inline-block;
+        /*padding-left: 10px;*/
+    }
+    
+    .lista-footer {
+        text-align: center; 
+    }
+    
+    .lista-footer-2{
+        text-align: center; 
+    }
 }

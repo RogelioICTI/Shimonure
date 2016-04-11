@@ -3,7 +3,7 @@
         <div class="col-md-8 col-sm-12">
             <h1 class="padding-bottom-15">Hola :)</h1>
             <p class="text-justify">
-                Soy <b>Rogelio Vargas Marquez</b> y me considero un <b>Programador Full Stack</b> y <b>Lider de Equipo</b>. Busco crear <b>soluciones</b> que aporten un <b>gran valor de negocio</b> en el ambiente donde me desempeñe profesionalmente. Utilizando <b>SCRUM</b> como marco de trabajo busco que la <b>respuesta</b> sea <b>rápida y eficiente</b>. Soy una persona totalmente <b>orientada a resultados</b> que siempre está en la búsqueda de mejorar, para <b>dar lo mejor de mí en cada actividad</b> que realizo. 
+                Soy <b>Rogelio Vargas Marquez</b> y me considero un <b>Programador Full Stack</b> y <b>Líder de Equipo</b>. Busco crear <b>soluciones</b> que aporten un <b>gran valor de negocio</b> en el ambiente donde me desempeñe profesionalmente. Utilizando <b>SCRUM</b> como marco de trabajo busco que la <b>respuesta</b> sea <b>rápida y eficiente</b>. Soy una persona totalmente <b>orientada a resultados</b> que siempre está en la búsqueda de mejorar, para <b>dar lo mejor de mí en cada actividad</b> que realizo. 
             </p>
             <p class="text-justify">
                 Tengo experiencia analizando, diseñando y desarrollando todo tipo sistemas, especialmente para plataformas Web y Móviles. Además, brindo consultoría para la mejora de procesos y adaptación de nuevas tecnologías en cualquier ámbito laboral.
