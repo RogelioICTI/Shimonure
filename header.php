@@ -25,6 +25,24 @@ $url_base_final = "http://" . $_SERVER['HTTP_HOST'] . "/" . $url_base . "/";
         <script>
             var url_general_sitio = '<?php echo $url_base_final; ?>';
         </script>
+
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-76301055-1', 'auto');
+            ga('send', 'pageview');
+
+        </script>
     </head>
     <?php //include_once 'pages/demo.php'; ?>
 
@@ -61,9 +79,9 @@ $url_base_final = "http://" . $_SERVER['HTTP_HOST'] . "/" . $url_base . "/";
 
         <?php
         if ($GLOBALS['narbar_bandera'] != 'index.php'):
-        ?>
-        <div style="height: 50px;"></div>
-        <?php
+            ?>
+            <div style="height: 50px;"></div>
+            <?php
         endif;
         ?>
 
