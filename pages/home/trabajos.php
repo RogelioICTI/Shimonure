@@ -2,14 +2,14 @@
     <div class="container padding-bottomtop-40">
         <div class="row">
             <div class="col-xs-12 padding-bottom-15">
-                <h1>Algunos de mis trabajos</h1>
+                <h1>En lo que colaboré</h1>
             </div>
         </div>
         <div class="col-md-4 col-sm-6 text-justify padding-bottomtop-10">
             <div class="trabajo-item-home padding-leftright-10">
-                <a href="#VerDetalle"><img class="img-responsive" src="img/portafolio/fondo_bichos.png"></a>
-                <a href="#VerDetalle"><h3>ByeByeBichitos</h3></a>
-                <p>Página <a href="http://byebyebichitos.com/">web</a> de una serie de Clínicas Especializadas en el tratamiento de la Pediculosis. Se implemento un layout definido previamente usando PHP y jQuery como base, para la responsividad se uso Bootstrap 3.</p>
+                <a href="page-portafolio.php"><img class="img-responsive" src="img/portafolio/fondo_bichos.png"></a>
+                <a href="page-portafolio.php"><h3>ByeByeBichitos</h3></a>
+                <p><a href="http://byebyebichitos.com/">Página web</a> de una serie de Clínicas Especializadas en el tratamiento de la Pediculosis. Además, cuenta con la información de las complicaciones que este tipo de padecimiento conlleva.</p>
                 
                 <div class="minibarra-lenguajes">
                     <img class="item-minibarra" data-toggle="tooltip" title="CSS" src="img/lenguajes/css.png">
@@ -24,27 +24,37 @@
 
         <div class="col-md-4 col-sm-6 text-justify padding-bottomtop-10">
             <div class="trabajo-item-home padding-leftright-10">
-                <img class="img-responsive" src="img/trabajo_test.jpg">
-                <h3>Servicio 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <a href="page-portafolio.php"><img class="img-responsive" src="img/portafolio/fondo_fasor.png"></a>
+                <a href="page-portafolio.php"><h3>Fasor eléctrico</h3></a>
+                <p><a href="http://www.fasor.com.mx">Página web</a> de una pequeña empresa que ofrece servicios de electrificación. También, contiene información sobre el proceso de electrificación y el funcionamiento de algunos equipos usados en el ámbito.</p>
                 <div class="minibarra-lenguajes">
-                    <img class="item-minibarra" src="img/lenguajes/css.png">
-                    <img class="item-minibarra" src="img/lenguajes/php.png">
-                    <img class="item-minibarra" src="img/lenguajes/js.png">
-                    <img class="item-minibarra" src="img/lenguajes/sql.png">
-                    <img class="item-minibarra" src="img/lenguajes/java.png">
-                    <img class="item-minibarra" src="img/lenguajes/bootstrap.png">
-                    
-                </div>   
-                </p>
+                    <img class="item-minibarra" data-toggle="tooltip" title="CSS" src="img/lenguajes/css.png">
+                    <img class="item-minibarra" data-toggle="tooltip" title="HTML" src="img/lenguajes/html.png">
+                    <img class="item-minibarra" data-toggle="tooltip" title="PHP" src="img/lenguajes/php.png">
+                    <img class="item-minibarra" data-toggle="tooltip" title="BOOTSTRAP" src="img/lenguajes/bootstrap.png">
+                    <img class="item-minibarra" data-toggle="tooltip" title="JQUERY" src="img/lenguajes/jquery.png">
+                </div> 
+                
             </div>
         </div>
 
         <div class="col-md-4 col-sm-6 text-justify padding-bottomtop-10">
             <div class="trabajo-item-home padding-leftright-10">
-                <img class="img-responsive" src="img/trabajo_test.jpg">
-                <h3>Servicio 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Consequat somo the.</p>
+                <a href="page-portafolio.php"><img class="img-responsive" src="img/portafolio/fondo_casysp.png"></a>
+                <a href="page-portafolio.php"><h3>Hormiga CASySP</h3></a>
+                <p>Durante mi estancia laboral en <a href="http://www.cinepop.com.mx/">Cinepop</a> fui el principal desarrollador del sistema CASySP. El cual sirve para controlar y administrar de las ventas efectuadas  en  la  operación. Además, con ayuda de <a href="https://opendatakit.org/use/collect/">ODK</a> se realiza la recolección de datos estadísticos de los eventos de cine y activaciones. </p>
+                
+                <div class="minibarra-lenguajes">
+                    <img class="item-minibarra" data-toggle="tooltip" title="PHP" src="img/lenguajes/php.png">
+                    <img class="item-minibarra" data-toggle="tooltip" title="JQUERY" src="img/lenguajes/jquery.png">
+                    <img class="item-minibarra" data-toggle="tooltip" title="ANDROID" src="img/lenguajes/android.png">
+                    <img class="item-minibarra" data-toggle="tooltip" title="SQL" src="img/lenguajes/sql.png">
+                    <img class="item-minibarra" data-toggle="tooltip" title="CSS" src="img/lenguajes/css.png">
+                    <img class="item-minibarra" data-toggle="tooltip" title="HTML" src="img/lenguajes/html.png">
+                    <img class="item-minibarra" data-toggle="tooltip" title="BOOTSTRAP" src="img/lenguajes/bootstrap.png">
+                    
+                </div> 
+                
             </div>
         </div>
 

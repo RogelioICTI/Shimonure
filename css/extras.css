@@ -18,6 +18,9 @@ html{
 h1{
     font-weight: 700;    
 }
+.trabajo-item-home a{
+    font-weight: 600;
+}
 
 .btn-default,.btn-primary,.btn-success,.btn-info,.btn-warning,.btn-danger {
     -webkit-box-shadow: 3px 3px 2px #888888;

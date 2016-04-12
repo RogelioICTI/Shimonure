@@ -9,7 +9,7 @@
         
         <div class="col-md-6">
             <div class="contacto-item-home padding-leftright-10 padding-ayuda">
-                <h3>Mis datos</h3>
+                <h3><b>Ponte en contacto conmigo.</b></h3>
                 <ul class="datos-contacto">
                     <!--Télefono-->
                     <li>
