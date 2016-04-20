@@ -1,0 +1,104 @@
+/* 
+    Created on : 20/04/2016, 12:32:10 PM
+    Author     : Rogelio Vargas <rogelio@dsindigo.mx>
+*/
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    background-color: #E9E9E9;
+}
+
+.hoja{
+    background-color: #FEFEFE;
+    border-radius: 10px;
+    
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Marcellus SC', serif;
+    color: #003265;
+}
+
+h2,h4{
+    font-weight: 600;
+}
+
+.h4-item{
+    font-family: 'Marcellus SC', serif;
+    font-weight: 600;
+    color: #003265;
+}
+
+.h4-item{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.title {
+    border-bottom: 2px solid #003265;
+}
+
+.foto-cv{
+    max-height: 120px;
+}
+
+.item-dato-personal{
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+    height: auto;
+    display: table;
+    
+}
+
+.item-rango-fecha{
+    font-family: 'Ubuntu', sans-serif;
+    color: #5b5757;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.titulo-descripcion{
+    font-weight: 600;
+}
+
+.texto-descripcion{
+    margin-top: 15px!important;
+}
+
+.item-descripcion p{
+    margin: 0 0 5px;
+}
+.lugar-descripcion{
+    font-style: italic;
+}
+
+/*font-family: 'Ubuntu', sans-serif;*/
+
+@media (min-width: 1025px){
+    .container{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media (max-width: 1024px){
+    h1{
+        font-size: 26px; 
+    }
+    h2{
+        font-size: 24px; 
+    }
+    
+    h3{
+        font-size: 20px; 
+    }
+    
+    
+}
+

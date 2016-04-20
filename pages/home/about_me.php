@@ -12,12 +12,14 @@
                 Cuento con certificación de <b>Scrum Master y Developer</b>, además de contar con el grado de <b>M. en C. en Computación</b> con la especialidad en Seguridad y Criptografía.
             </p>
             <div class="margin-top-20">
-                <a class="btn btn-primary fs-18 btn-arrow" href="page-sobre_mi.php">Información sobre mi &nbsp; <i class="fa fa-angle-double-right"></i></a>
+                <a class="btn btn-primary fs-18 btn-arrow" href="page-sobre_mi.php">Sobre mí &nbsp; <i class="fa fa-user"></i></a>
+                &nbsp;
+                <a class="btn btn-primary fs-18 btn-arrow" href="page-cv.php">Currículum &nbsp; <i class="fa fa-file-text-o"></i></a>
             </div>
         </div>
         <div class="col-md-4 text-center hidden-sm hidden-xs">
             <!--<img src="http://fpoimg.com/300x300?text=Fotografía">-->
-            <img class="img-responsive img-rounded padding-bottomtop-40" src="img/home/perfil_2.jpg">
+            <img class="img-responsive img-rounded " src="img/home/perfil_2.jpg">
         </div>
 
         <!--<div style="height: 400px" align="center"><h1 >About Me</h1></div>-->
