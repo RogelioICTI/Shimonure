@@ -1,16 +1,16 @@
 <?php
 global $narbar_bandera;
-$url_base = "Shimonure";
-$url_base_final = "http://" . $_SERVER['HTTP_HOST'] . "/" . $url_base . "/";
+$url_base = "";
+$url_base_final = "http://" . $_SERVER['HTTP_HOST'] . "/" . $url_base;
 ?>
 <!DOCTYPE html>
 <html lang="es">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="description" content="Sitio Personal de Rogelio Vargas">
+        <meta name="author" content="Rogelio Vargas">
 
         <link href="css/theme.css" rel="stylesheet" />
         <link href="css/extras.css" rel="stylesheet" />

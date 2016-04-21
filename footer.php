@@ -27,7 +27,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#CVU">
+                    <a href="page-cv.php">
                         currículum &nbsp;<i style="" class="fa fa-file-text"></i>
                     </a>
                 </li>
