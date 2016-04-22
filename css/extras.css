@@ -293,6 +293,12 @@ h1{
     background-size: cover;
 }
 
+@media (max-width:768px){
+    .division-codigo{
+        height: 200px;
+    }
+}
+
 .codigo-4{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_4.jpg');
     background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/divisiones/codigo_4.jpg');

@@ -14,6 +14,7 @@ $url_base_final = "http://" . $_SERVER['HTTP_HOST'] . "/" . $url_base;
 
         <link href="css/theme.css" rel="stylesheet" />
         <link href="css/extras.css" rel="stylesheet" />
+        <link href="css/single-portafolio.css" rel="stylesheet" />
 
         <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>

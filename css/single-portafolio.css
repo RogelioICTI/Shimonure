@@ -1,0 +1,26 @@
+.body-contenido{
+    padding-top: 30px;
+    padding-bottom:  30px;
+}
+
+.carousel img{
+    border-radius: 15px 15px 15px 15px;
+}
+
+.carousel-control.left{
+    background-image: none;
+}
+
+.carousel-control.right{
+    background-image: none;
+}
+
+.trabajo-item-home{
+    min-height: auto;
+}
+
+.item-single-descripcion{
+    color: #03355a;
+    font-weight: 700;
+    padding-right: 10px;
+}
